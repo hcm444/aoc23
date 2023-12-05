@@ -1,4 +1,4 @@
-with open("input.txt", "r") as f:
+with open("2.txt", "r") as f:
     input_data = f.read()
 max_r, max_g, max_b = 12, 13, 14
 games = []

@@ -1,6 +1,6 @@
 s = 0
 c = {}
-with open("input.txt") as file:
+with open("4.txt") as file:
     for i, line in enumerate(file):
         j = line.split(": ")[1].split("|")
         num2 = set(map(int, j[0].split()))

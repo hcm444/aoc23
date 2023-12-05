@@ -1,6 +1,6 @@
 games = []
 
-with open("input.txt", "r") as file:
+with open("2.txt", "r") as file:
     input_data = file.read()
 
 for line in input_data.splitlines():

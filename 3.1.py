@@ -11,7 +11,7 @@ class Symbol:
 
 if __name__ == "__main__":
     grid = []
-    with open('input.txt', 'r') as f:
+    with open('3.txt', 'r') as f:
         for j, line in enumerate(f):
             row = []
             current_number = None

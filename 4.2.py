@@ -1,5 +1,5 @@
 s, c = 0, {}
-with open("input.txt") as f:
+with open("4.txt") as f:
     for i, l in enumerate(f):
         h = l.split(": ")[1].split("|")
         w = [int(n) for n in h[0].split()]
@@ -13,4 +13,5 @@ a = {card: 1 for card in c}
 for card in a:
     for i in range(c[card]):
         a[card + i + 1] += a[card]
+
 print(sum(a.values()))

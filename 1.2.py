@@ -1,6 +1,6 @@
 total = 0
 alpha = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
-for line in open("input.txt").read().strip().split('\n'):
+for line in open("1.txt").read().strip().split('\n'):
     digits = []
     t_digits = []
     for i, j in enumerate(line):

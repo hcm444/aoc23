@@ -20,7 +20,7 @@ class Symbol:
         self.y = y
 
 
-def input_parser(file_path='input.txt'):
+def input_parser(file_path='3.txt'):
     schematic = []
 
     with open(file_path, 'r') as file:
